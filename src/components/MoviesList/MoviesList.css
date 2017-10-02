@@ -28,6 +28,16 @@
     line-height: 36px;
   }
 
+  .movies-list-item .movie-title a {
+    cursor: pointer;
+    color: #464646;
+    text-decoration: none;
+  }
+
+  .movies-list-item .movie-title a:hover {
+    color: #805be7;
+  }
+
   .movies-list-item .release-date {
     font-size: 14px;
     font-style: italic;

@@ -1,0 +1,45 @@
+@media only screen {
+  .movie-details {
+    max-width: 1024px;
+    padding: 36px;
+    background: #fff;
+    margin: 24px auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .movie-details-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .movie-details-content {
+    margin: 12px 0;
+  }
+
+  .movie-details-poster {
+    float: left;
+    margin: 0 24px 12px 0;
+  }
+
+  .movie-details-genres {
+    padding: 12px 0;
+  }
+
+  .movie-details-genres .genre {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #eee;
+    font-size: 12px;
+    background: #f1f1f1;
+    padding: 0 8px;
+    line-height: 24px;
+    margin-right: 8px;
+  }
+
+  .movie-rate {
+    position: absolute;
+    top: 36px; 
+    right: 36px;
+  }
+}

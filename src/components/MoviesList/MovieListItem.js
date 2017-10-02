@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
 
 import './MoviesList.css';
 
@@ -11,7 +12,9 @@ const MovieListItem = ({
   <div className="movies-list-item">
     {item.poster_path && <img className="poster" src={`http://image.tmdb.org/t/p/w154${item.poster_path}`} alt={item.original_title} />}
     <div className="item-content">
-      <h2 className="movie-title">{item.original_title}</h2>
+      <h2 className="movie-title">
+        <NavLink to={`/movie/${item.id}/details`}>{item.original_title}</NavLink>
+      </h2>
       <span className="release-date">release date: {item.release_date}</span>
       <VoteResult
         voteAverage={item.vote_average}

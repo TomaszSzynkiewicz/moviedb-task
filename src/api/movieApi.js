@@ -15,6 +15,14 @@ const movieApi = {
         query: title
       }
     });
+  },
+  getDetails({ id }) {
+    return axios.get(`${BASE_URL}/movie/${id}`, {
+      params: {
+        api_key: API_KEY,
+        language
+      }
+    });
   }
 };
 
