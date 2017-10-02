@@ -1,0 +1,40 @@
+@media only screen {
+  body {
+    padding-top: 64px;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    z-index: 9999;
+    background: #fff;
+  }
+
+  .nav {
+    position: absolute;
+    right: 0;
+  }
+
+  .nav li {
+    float: left;
+    list-style: none;
+  }
+
+  .nav li a {
+    display: block;
+    line-height: 64px;
+    height: 64px;
+    color: #464646;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 24px;
+    margin: 0 12px;
+  }
+
+  .nav li a:hover,
+  .nav li .active {
+    border-bottom: 3px solid #805be7;
+  }
+}
