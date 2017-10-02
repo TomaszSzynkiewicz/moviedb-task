@@ -1,0 +1,22 @@
+@media only screen {
+  .movie-rate {
+    width: 42px;
+    text-align: center;
+    background: red;
+  }
+
+  .movie-rate .rate {
+    display: block;
+    background: #f4f4f4;
+    font-size: 15px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+  .movie-rate .votes {
+    display: block;
+    background: #e4e4e4;
+    font-size: 11px;
+    line-height: 20px;
+  }
+}

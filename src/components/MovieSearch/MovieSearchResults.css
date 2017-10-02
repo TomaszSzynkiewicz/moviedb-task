@@ -1,0 +1,10 @@
+@media only screen {
+  .movie-search-results {
+    padding: 24px 0;
+    text-align: left;
+  }
+
+  .prev-next {
+    text-align: right;
+  }
+}

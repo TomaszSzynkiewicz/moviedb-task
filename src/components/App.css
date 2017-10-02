@@ -24,4 +24,56 @@
     margin: 0 auto;
     padding: 24px;
   }
+
+  .text-center {
+    text-align: center;
+  }
+
+  input[type=text],
+  .btn {
+    font-family: 'Cabin', sans-serif;
+    line-height: 42px;
+    height: 42px;
+    padding: 0 12px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    color: #464646;
+    border: 1px solid #ddd;
+  }
+
+  input[type=text]:focus {
+    border-color: #805be7;
+  }
+
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #805be7;
+    background: #805be7;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .btn:disabled {
+    background-color: #ccc;
+    border-color: #ccc;
+  }
+
+  .btn-search {
+    padding: 0;
+    width: 42px;
+    background-image: url(../static/images/lens-icon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .error {
+    border-left: 4px solid #cc3333;
+    background: #fff;
+    color: #cc3333;
+    padding: 8px 12px;
+  }
 }

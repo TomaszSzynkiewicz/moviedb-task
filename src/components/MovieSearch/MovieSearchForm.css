@@ -1,0 +1,18 @@
+@media only screen {
+  .movie-search-form {
+    max-width: 400px;
+    padding-right: 42px;
+    margin: 24px auto;
+    position: relative;
+  }
+
+  .movie-search-form input[type=text] {
+    display: block;
+  }
+
+  .movie-search-form .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
